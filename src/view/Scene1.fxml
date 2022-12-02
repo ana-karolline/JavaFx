@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="722.0" prefWidth="647.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SceneController">
+   <children>
+      <Label layoutX="199.0" layoutY="46.0" text="SISTEMA ONLINE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfCodigoVaga" layoutX="26.0" layoutY="198.0" prefHeight="24.0" prefWidth="286.0" promptText="Código da vaga" />
+      <Button fx:id="btnBuscarVaga" layoutX="380.0" layoutY="198.0" mnemonicParsing="false" text="Buscar" />
+      <VBox layoutX="490.0" layoutY="81.0" prefHeight="624.0" prefWidth="137.0" style="-fx-background-color: #A1E9ED;">
+         <children>
+            <Pane prefHeight="176.0" prefWidth="134.0">
+               <children>
+                  <Button layoutX="14.0" layoutY="141.0" mnemonicParsing="false" onAction="#switchLogin" prefHeight="24.0" prefWidth="109.0" text="TELA LOGIN" />
+               </children>
+            </Pane>
+            <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" style="-fx-background-color: #75B3FF;" text="Home">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Separator prefHeight="11.0" prefWidth="137.0" />
+            <Button layoutX="10.0" layoutY="186.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" style="-fx-background-color: #75B3FF;" text="Tecnologia">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button layoutX="10.0" layoutY="253.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" style="-fx-background-color: #75B3FF;" text="Cozinha">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button layoutX="10.0" layoutY="320.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" style="-fx-background-color: #75B3FF;" text="Comércio">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button layoutX="10.0" layoutY="387.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" style="-fx-background-color: #75B3FF;" text="Industria">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button layoutX="10.0" layoutY="454.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" style="-fx-background-color: #75B3FF;" text="Saúde">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button layoutX="10.0" layoutY="521.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" style="-fx-background-color: #75B3FF;" text="Transportes">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+         </children>
+      </VBox>
+      <TextArea layoutX="37.0" layoutY="330.0" prefHeight="364.0" prefWidth="437.0" />
+   </children>
+</AnchorPane>
